@@ -9,11 +9,11 @@ In order to conduct this analysis, you have been provided access to GitHub Archi
 
 There are 5 sub-folders, each containing a collection of parquet files.  A single folder can be read into Spark Dataframe:
 
-Commits (gs://msca-bdp-data-open/final_project_git/commits): This contains information about the commits made to repositories. Each commit has metadata such as the author, committer, commit date, SHA, parent commit(s), and commit message.
-Contents (gs://msca-bdp-data-open/final_project_git/contents): Provides the content of the files in the repositories. This is useful if you're looking to analyze source code or documents within repositories.
-Files (gs://msca-bdp-data-open/final_project_git/files): This contains metadata about the files in the repositories such as the file path, the mode, and the blob ID which links back to the content.
-Languages (gs://msca-bdp-data-open/final_project_git/languages): Each repository often has code written in one or more languages. This table provides an aggregation of the number of bytes of code for each language in a repository.
-Licenses (gs://msca-bdp-data-open/final_project_git/licenses): Contains information on the licenses used by repositories.
+- Commits (gs://msca-bdp-data-open/final_project_git/commits): This contains information about the commits made to repositories. Each commit has metadata such as the author, committer, commit date, SHA, parent commit(s), and commit message.
+- Contents (gs://msca-bdp-data-open/final_project_git/contents): Provides the content of the files in the repositories. This is useful if you're looking to analyze source code or documents within repositories.
+- Files (gs://msca-bdp-data-open/final_project_git/files): This contains metadata about the files in the repositories such as the file path, the mode, and the blob ID which links back to the content.
+- Languages (gs://msca-bdp-data-open/final_project_git/languages): Each repository often has code written in one or more languages. This table provides an aggregation of the number of bytes of code for each language in a repository.
+- Licenses (gs://msca-bdp-data-open/final_project_git/licenses): Contains information on the licenses used by repositories.
  
 
 # To complete the project, you will need to perform the following steps:
